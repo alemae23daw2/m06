@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex01</title>
+    <script src="ppt.js"></script>
+    <style>
+        *{
+            font-family: Arial;
+        }
+        
+        button{
+            border-radius:5px;
+            margin-right: 5px;
+            width: 80px;
+            height: 50px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Joc pedra paper tisores</h1>
+    <h3>Entra la teva opcio per la jugada:</h3>
+    <input type="radio" name="opcio">Pedra<br>
+    <input type="radio" name="opcio">Paper<br>
+    <input type="radio" name="opcio">Tisora
+
+    <h2>Resultat de la jugada actual:</h2>
+
+    <div id="jugada">
+
+    </div>
+    <h3>JUGADES GUANYADES I PERDUDES:</h3>
+    <div id="historial">
+
+    </div>
+    <br>
+    <button id="nova">Nova jugada</button>
+    <button id="esborrarS">Esborra seleccio</button>
+    <button id="inic">Inicialitza contador</button>
+    <button id="esborrarR" >Esborra Resultat</button>
+
+</body>
+</html>
