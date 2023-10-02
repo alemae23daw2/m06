@@ -15,19 +15,19 @@ window.onload = function(){
     function novaJ(){
         let maquina = generar();
         if (opcio[0].checked){
-            if (maquina == "pedra"){div.innerHTML = "La maquina ha escollit pedra, empat"; empat++;}
-            else if( maquina == "paper"){div.innerHTML = "La maquina ha escollit paper, has perdut"; perdut++}
-            else if( maquina == "tisora"){div.innerHTML = "La maquina ha escollit tisora, has guanyat"; guanyat++}
+            if (maquina == "pedra"){div.innerHTML = "L'ordinador ha escollit la mateixa opció. Has empatat el joc"; empat++;}
+            else if( maquina == "paper"){div.innerHTML = "L'ordinador ha escollit Paper. Has perdut el joc"; perdut++}
+            else if( maquina == "tisora"){div.innerHTML = "L'ordinador ha escollit Tisora. Has guanyat el joc"; guanyat++}
         } 
         if (opcio[1].checked){
-            if (maquina == "paper"){div.innerHTML = "La maquina ha escollit paper, empat"; empat++}
-            else if( maquina == "tisora"){div.innerHTML = "La maquina ha escollit tisora, has perdut"; perdut++}
-            else if( maquina == "pedra"){div.innerHTML = "La maquina ha escollit pedra, has guanyat"; guanyat++}
+            if (maquina == "paper"){div.innerHTML = "L'ordinador ha escollit la mateixa opció. Has empatat el joc"; empat++}
+            else if( maquina == "tisora"){div.innerHTML = "L'ordinador ha escollit Tisora. Has perdut el joc"; perdut++}
+            else if( maquina == "pedra"){div.innerHTML = "L'ordinador ha escollit Pedra. Has guanyat el joc"; guanyat++}
         }
         if (opcio[2].checked){
-            if (maquina == "tisora"){div.innerHTML = "La maquina ha escollit tisora, empat"; empat++}
-            else if( maquina == "paper"){div.innerHTML = "La maquina ha escollit paper , has guanyat"; guanyat++}
-            else if( maquina == "pedra"){div.innerHTML = "La maquina ha escollit pedra, has perdut"; perdut++}
+            if (maquina == "tisora"){div.innerHTML = "L'ordinador ha escollit la mateixa opció. Has empatat el joc"; empat++}
+            else if( maquina == "paper"){div.innerHTML = "L'ordinador ha escollit Paper. Has guanyat el joc"; guanyat++}
+            else if( maquina == "pedra"){div.innerHTML = "L'ordinador ha escollit Pedra. Has perdut el joc"; perdut++}
         
         }
         return empat, guanyat, perdut;
